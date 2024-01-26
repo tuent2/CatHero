@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6472228626471512588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 818754834948220272}
+  - component: {fileID: 8306639864920270625}
+  m_Layer: 0
+  m_Name: Constructor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &818754834948220272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472228626471512588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8306639864920270625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472228626471512588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c56ba4efcc465148bc09a93b8c94185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tank: {fileID: 0}
+  Hull: {fileID: 0}
+  HullPosition: {fileID: 0}
+  Hatch: {fileID: 0}
+  HatchPosition: {fileID: 0}
+  Gun: {fileID: 0}
+  GunPosition: {fileID: 0}
+  Tower: {fileID: 0}
+  TowerPosition: {fileID: 0}
+  Pipe: {fileID: 0}
+  PipePosition: {fileID: 0}
+  Bumper: {fileID: 0}
+  BumperPosition: {fileID: 0}
+  Track:
+  - {fileID: 0}
+  - {fileID: 0}
+  TrackLibrary:
+  - {fileID: 0}
+  - {fileID: 0}
+  Label: {fileID: 0}
+  LabelPosition: {fileID: 0}
+  Towers:
+  - {fileID: 21300000, guid: a16de4915ba37f34e9b983b391ab5e5b, type: 3}
+  - {fileID: 21300000, guid: 8682002e75066d24c897b32491b7aeeb, type: 3}
+  - {fileID: 21300000, guid: 58bf9539e6f401b43966ce24b0836d7a, type: 3}
+  - {fileID: 21300000, guid: f86b33c7454777347bc236013f4dfe7e, type: 3}
+  - {fileID: 21300000, guid: 3d87e68862c20a645a194d51b9ad3db5, type: 3}
+  - {fileID: 21300000, guid: 7f9188799727c144fb4a76b424c5d149, type: 3}
+  - {fileID: 21300000, guid: 05097e68f93d0d1439f4370214b87381, type: 3}
+  TowerPositions:
+  - {x: -0.3, y: 1.3}
+  - {x: -0.1, y: 1.85}
+  - {x: -0.2, y: 1.7}
+  - {x: -0.3, y: 1.3}
+  - {x: -0.15, y: 1.5}
+  - {x: -0.15, y: 1.5}
+  - {x: 1, y: 1.6}
+  Hatches:
+  - {fileID: 21300000, guid: e9802dcc6bb393847a2c5d24d5377588, type: 3}
+  - {fileID: 21300000, guid: 62cfec8546516fb49842f8d31c6b7875, type: 3}
+  - {fileID: 21300000, guid: 6bb1bb877b9d9994e9ed00445b55dd45, type: 3}
+  - {fileID: 21300000, guid: d60bdbb56b091d04d9731ada065c1976, type: 3}
+  - {fileID: 21300000, guid: 02301629fbe2d4746989e52cc0ad17b4, type: 3}
+  - {fileID: 21300000, guid: e5a5de1ebaab3b74f84a7d32b1442b01, type: 3}
+  - {fileID: 21300000, guid: 60162b551fd4fee4e9bbee52a5f69b0b, type: 3}
+  HatchPositions:
+  - {x: 1.3, y: 2.2}
+  - {x: 1.1, y: 2.05}
+  - {x: 1, y: 2.53}
+  - {x: 1.28, y: 2.2}
+  - {x: 2.05, y: 2.5}
+  - {x: 1.68, y: 2.28}
+  - {x: 1.72, y: 2.25}
+  Guns:
+  - {fileID: 21300000, guid: 09aba74af10f0d84b80d7730799b2c7c, type: 3}
+  - {fileID: 21300000, guid: 6a6cf17e96feadb4da6fb61c5d07f0f2, type: 3}
+  - {fileID: 21300000, guid: ca59685fa6f92914f93541352532bda6, type: 3}
+  - {fileID: 21300000, guid: 0f0bd29b45abbb246b9f79ba009a8ab3, type: 3}
+  - {fileID: 21300000, guid: 331dca6c03c08e84787ed524d18d2e79, type: 3}
+  - {fileID: 21300000, guid: 7739b265288a5804f8c7e003e0ea080b, type: 3}
+  - {fileID: 21300000, guid: 6d1ab6447b71b1041ba6be2b48358608, type: 3}
+  GunPositions:
+  - {x: -1.4, y: 0.85}
+  - {x: -1.5, y: 0.85}
+  - {x: -0.9, y: 1.25}
+  - {x: -1.2, y: 1}
+  - {x: -1.4, y: 1}
+  - {x: -1.6, y: 0.85}
+  - {x: -2.08, y: 0.88}
+  Hulls:
+  - {fileID: 21300000, guid: 27bb434a49c67f940bd60cc152d2142f, type: 3}
+  - {fileID: 21300000, guid: abcc35554e0310c44b2f03571d093f9d, type: 3}
+  - {fileID: 21300000, guid: 16ab7d7870853e5448ef638536cc4aca, type: 3}
+  - {fileID: 21300000, guid: 3fff5365a44745f41a1bce1f6ddf70ca, type: 3}
+  - {fileID: 21300000, guid: bae0913ac13a9b4439182fc5349fb198, type: 3}
+  - {fileID: 21300000, guid: b49eb6bc73fbecd46ae4937531770aed, type: 3}
+  - {fileID: 21300000, guid: dafcf3c65ff8e8d4a8480abb3c20e6a4, type: 3}
+  Pipes:
+  - {fileID: 21300000, guid: cb80cf0a962539143ada668c204e51a1, type: 3}
+  - {fileID: 21300000, guid: 7581573602b5d9a41a9f6a5a668c984c, type: 3}
+  - {fileID: 21300000, guid: 0e18e9a95ae767d47b24a792f1f8729c, type: 3}
+  - {fileID: 21300000, guid: 309ad4f5d90235942b0fcf348e6284a4, type: 3}
+  - {fileID: 21300000, guid: 686c3ac84395672438b6ab3abab84a7f, type: 3}
+  - {fileID: 21300000, guid: 1581367071a970b4da0fc93d2da3ad25, type: 3}
+  - {fileID: 21300000, guid: 9a148ff1ed910c1469e285059be727ac, type: 3}
+  Bumpers:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 3f135fcb807c59741bf159744b60b3c9, type: 3}
+  - {fileID: 21300000, guid: 5d613a2e85e611046838996e7e5997f5, type: 3}
+  - {fileID: 21300000, guid: 94518f19aa91498478e188a6a23d9ff6, type: 3}
+  BumperPositions:
+  - {x: -2.5, y: -2}
+  - {x: -2.5, y: -2}
+  - {x: -2.5, y: -2}
+  - {x: -2.5, y: -2}
+  - {x: -2.5, y: -2}
+  - {x: -2.5, y: -2}
+  - {x: -3, y: -2}
+  Tracks:
+  - {fileID: 5088316998373936774, guid: 8fcf3805b1438ab43b7b18fcbc29ed86, type: 3}
+  - {fileID: -5027509340213622084, guid: e312132ddd7145b44a840b1d8502518b, type: 3}
+  - {fileID: -5027509340213622084, guid: 7d427542cf8ee1b41912ca36232dfc02, type: 3}
+  - {fileID: -5027509340213622084, guid: df3aa74d973166f4ebf0d0bf3dc91641, type: 3}
+  - {fileID: -5027509340213622084, guid: ccb4355acba7a4245ae46e7ab3942eb8, type: 3}
+  - {fileID: -5027509340213622084, guid: 0d26bcad357a34e4491c065b526164d1, type: 3}
+  - {fileID: -5027509340213622084, guid: 882b05719fa3030488f5027329752606, type: 3}
+  - {fileID: -5027509340213622084, guid: e23b20b35189d4444bd887745c847e29, type: 3}
+  TrackLibraryAssets:
+  - {fileID: 11400000, guid: 25b506b3aeb6fb44a85228d2c6fe0e10, type: 2}
+  - {fileID: 11400000, guid: 23307debe84e7f747870144f48889e7b, type: 2}
+  - {fileID: 11400000, guid: 6089a20f056acf442ae55997425296c1, type: 2}
+  - {fileID: 11400000, guid: 4f67d0c5f3979df48861eba29c9665d1, type: 2}
+  - {fileID: 11400000, guid: 775015b8c61100542b026ff8c467921d, type: 2}
+  - {fileID: 11400000, guid: a23746d9f8b629a4f8ca921d16289e23, type: 2}
+  - {fileID: 11400000, guid: 5724853510e05dc4187e1462bd9915ab, type: 2}
+  - {fileID: 11400000, guid: 0ec603abdd298cd4784c670bcd024d91, type: 2}
+  Labels:
+  - {fileID: 21300000, guid: 15d139145f6c86b4d913ad63758488b9, type: 3}
+  - {fileID: 21300000, guid: 737d1fca38b1a7941a728a6d8ce4ff72, type: 3}
+  - {fileID: 21300000, guid: 8d43d285ba8fe274ab7e537ae0251451, type: 3}
+  - {fileID: 21300000, guid: 8919e75964fe029489954ea93275f885, type: 3}
+  - {fileID: 21300000, guid: c5d47e94d69509f4390dd4949352b4fa, type: 3}
+  - {fileID: 21300000, guid: a7e7d4c3872b6c644af0cf9900bf0c44, type: 3}
+  - {fileID: 21300000, guid: aec984f39e7525f42a95b1b3e5a43db2, type: 3}
+  - {fileID: 21300000, guid: f0e94bbdd5864414b8e9bd6de2b69dba, type: 3}
+  - {fileID: 21300000, guid: 3475e9bbf46b7ce45a63e23897727bf5, type: 3}
+  - {fileID: 21300000, guid: d65a8942f4d9b5b4db3306ad7a752911, type: 3}
+  - {fileID: 0}
+  LabelPositions:
+  - {x: 1.15, y: 0.85}
+  - {x: 1.07, y: 0.77}
+  - {x: 0.8, y: 1.2}
+  - {x: 1.06, y: 0.75}
+  - {x: 0.8, y: 1.5}
+  - {x: 1.1, y: 0.87}
+  - {x: 1, y: 1}
+  AudioSourceFx: {fileID: 0}
+  SwitchAudio: {fileID: 8300000, guid: 187b808218c40a04fae97c55622e57f6, type: 3}
+  Path: 
